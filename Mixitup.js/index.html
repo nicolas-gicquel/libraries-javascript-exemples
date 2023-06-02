@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button type="button" data-filter="all">All</button>
+<button type="button" data-filter=".category-a">Category A</button>
+<button type="button" data-filter=".category-b">Category B</button>
+<button type="button" data-filter=".category-c">Category C</button>
+
+    <div class="container">
+    <div class="mix category-a" data-order="1">Category A</div>
+    <div class="mix category-b" data-order="2">Category B</div>
+    <div class="mix category-b category-c" data-order="3">Category B et C</div>
+    <div class="mix category-a category-d" data-order="4">Category A et D</div>
+</div>
+
+
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+<script src="js/mixitup.min.js"></script>
+<script>
+    var mixer = mixitup(".container");
+</script>
+</body>
+</html>
