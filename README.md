@@ -1,5 +1,5 @@
 # libraries-javascript-exemples
-Exemples de mise en place de librairies javascript gratuites
+Examples of setting up free javascript libraries
 
 - slick.js (carousels)
-- mixitup.js (système de tri)
+- mixitup.js (sorting system)
